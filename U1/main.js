@@ -1,3 +1,62 @@
+// 1.Creá un programa que permita al usuario ingresar una lista de números y luego muestre el número más grande y el número más pequeño
+
+// const input = document.querySelector("#input");
+// const btn = document.querySelector("#btn");
+// const btnResult = document.querySelector("#btnResult");
+// const minMax = document.querySelector("#minMax");
+// const numeros = [];
+
+// btn.addEventListener("click", () => {
+//     const valor = parseInt(input.value);
+//     if (isNaN(valor)) {
+//         alert("Ingrese un número");
+//         return;
+//     }
+//     numeros.push(valor);
+//     input.value = "";
+//     input.focus();
+// });
+// btnResult.addEventListener("click", () => {
+//     let min = Math.min(...numeros);
+//     let max = Math.max(...numeros);
+//     minMax.innerHTML = `El número más pequeño es ${min} y el más grande es ${max}`;
+// });
+
+// 2. Creá un programa que permita al usuario ingresar una lista de palabras y luego muestre cuántas de ellas comienzan con una letra específica.
+// const inputPalabra = document.querySelector("#inputPalabra");
+// const btnPalabra = document.querySelector("#btnPalabra");
+// const inputLetra = document.querySelector("#inputLetra");
+// const btnLetra = document.querySelector("#btnLetra");
+// const lista = document.querySelector("#lista");
+// const palabras = [];
+
+// btnPalabra.addEventListener("click", () => {
+//     const valor = inputPalabra.value;
+//     if (valor === "") {
+//         alert("Ingrese una palabra");
+//         return;
+//     }
+//     palabras.push(valor);
+//     inputPalabra.value = "";
+//     inputPalabra.focus();
+// });
+// btnLetra.addEventListener("click", () => {
+//     const letra = inputLetra.value;
+//     lista.innerHTML = ''
+//     if (letra === "") {
+//         alert("Ingrese una letra");
+//         return;
+//     }
+//     palabras.forEach((palabra) => {
+//         let lower = palabra.toLowerCase();
+//         let lowerLetra = letra.toLowerCase();
+//         if (lower.charAt(0) === lowerLetra) {
+//             lista.innerHTML += `<li>${palabra}</li>`;
+//         }
+//     });
+//     if(lista.innerHTML === '') lista.innerHTML = `<li>No se encontraron palabras con la letra ${letra}</li>`
+// });
+
 // //PUNTO3
 // const input = document.querySelector('#input')
 // const btnAdd = document.querySelector('#btnAdd')
